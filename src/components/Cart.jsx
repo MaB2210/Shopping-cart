@@ -17,7 +17,7 @@ const Cart = ({cartItem, cartTotal, updateQuantity}) => {
                         <button onClick={() => updateQuantity(item.id, -1)}> - </button>
                     </div>))}
             </div>
-            <div className="cart-total">cart total : ${cartTotal}</div>
+            <div className="Cart-total">cart total : ${cartTotal}</div>
         </div>
     )
 }
