@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/projects/shopping-cart/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
